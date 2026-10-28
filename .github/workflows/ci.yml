@@ -33,4 +33,4 @@ jobs:
         run: mvn clean package
       # Gitleaks scan (before compila�on)
       - name: Run Gitleaks scan
-        uses: gitleaks/gitleaks-ac�on@v3
+        uses: gitleaks/gitleaks-action@v3
